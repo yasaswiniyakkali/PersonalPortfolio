@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/71463a8305.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+
+        <div class="container">
+              
+        <nav>
+                
+                <a href="/" class="logo"><i class="fa-brands fa-yoast"></i> Yashu</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                <!-----    <li><a href="#services">Services</a></li>--->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        
+        <!------<nav>
+            <div class="title-heading">
+                <img src="DBMS_images/sirmvit-logo.jpeg" class="logo">
+                <h1>Placements, Sir MVIT Bangalore</h1>
+            </div>
+            
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">Overview</a></li>
+                <li><a href="#services">Training process</a></li>
+                
+              -----<li><a href="/login.html">Login</a></li>------
+                <li><a href="#contact">Contact us</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>--------->
+            <div class="home">
+                <div class="header-text">
+                    
+                    <h1>Hi, I'm<br><span>Yasaswini</span></h1>
+                    <h5>Tech Enthusiast</h5>
+                </div>
+               <!----------- <a href="#about" class="btn"><span>About Me</span>
+                    <i class="fas fa-arrow-circle-down"></i>
+                </a>----------->
+                
+                <div class="home-right">
+                    <img src="images/p1.jpg" >
+                </div>
+                
+
+            </div>
+            <div class="socials">
+                <ul class="social-icons">
+                  <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/yasaswini-yakkali-b29137219/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+                  <li><a class="github" aria-label="GitHub" href="https://github.com/yasaswiniyakkali" target="_blank"><i class="fab fa-github"></i></a></li>
+                  <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/Yasaswini2002" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                  <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/yashuyakkali/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                  
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-----about-->
+
+    <div id="about">
+        <div class="container">
+            <h1 class="sub-title">About me</h1><br>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutme.jpeg">
+                </div>
+
+                <div class="about-col-2">
+                    
+                    <p>Wishing to seek a challenging carrier in an organization which would give me an oppurtunity to grow with it.
+                        I am confident that with my dynamic attitude.I can take up a challenges coming in my way for the success of the
+                         organization in the best possible manner</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Featured')">Featured</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Problem Solving</span><br>Advanced:C++,Python<br>Medium:C,Java</li>
+                            <li><span>Web development</span><br>Designing web and interfaces<br>Lang:HTML,CSS,JavaScript(medium),php(beginner)</li>
+                            <li><span>Data science</span><br>Built some projects<br>Lang:Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Featured">
+                        <ul>
+                            <li>I cracked GATE 2023 with All India Rank 3784 in my first attempt.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BTech (2020-24)</span><br>SirMVIT <br>cgpa:8.73 (till 5th sem)</li>
+                            <li><span>Intermediate (2018-20)</span><br>FIITJEE junior college<br>cgpa:10.0</li>
+                            <li><span>SSC (2018)</span><br>Sri Chaitanya High School<br>cgpa:10.0</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!------------services-------------------------
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web design</h2>
+                    <p>sairam</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>web design</h2>
+                    <p>sairam</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>web design</h2>
+                    <p>sairam</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    -------->
+    <!-------------portfolio------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                
+                <div class="work">
+                    <img  src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Netflix clone</h3>
+                        <p>
+                            It is a website resembling netflix information filling page.
+                        </p>
+                        <a href="https://github.com/yasaswiniyakkali/Netflix-Clone"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                    
+                </div>
+                
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>College placements website</h3>
+                        <p>
+                            It is a website where a college placement details are shown.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Data Science project</h3>
+                        <p>
+                            It is a project where house cost will be estimated,using
+                            appropriate ML model,on basis of multiple facilities
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <!--------contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>yashuyakkali@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>9491975413</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/yasaswini-yakkali-b29137219"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/Yasaswini2002"><i class="fa-brands fa-twitter-square"></i></a>
+                        
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/Yasaswini_Yakkali_Resume_portfolio.pdf" download class="btn2">Download cv</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <a href="#header" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+        <div class="copyright">
+            <p>Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/yasaswini-yakkali-b29137219/"> Yasaswini</a></p>
+        </div>
+        
+    </div>
+    
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemen=document.getElementById("sidemenu")
+        function openmenu(){
+            sidemen.style.right="0";
+        }
+        function closemenu(){
+            sidemen.style.right="-200px";
+        }
+
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxAwgTuOdhlWtRA5iteq0ve5pEqZ10FFjExiwYqEQAPQ3TOkZBlIigzGKg_AHPk-WEH/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+</body>
+</html>
