@@ -562,7 +562,7 @@ nav .fa-regular{
     #menu {
         display: block;
       }
-      .home .btn {
+     /* .home .btn {
         margin-top: 54%;
         margin-left: 70px;
         position: absolute;
@@ -576,6 +576,7 @@ nav .fa-regular{
         box-shadow: #ff004f;
         font-family: "Nunito", sans-serif;
       }
+    */
     .home{
         display:grid;
     }
@@ -594,12 +595,12 @@ nav .fa-regular{
         margin-left: 68px;
       }
     .header-text{
-        font-size: 16px;
-        margin-left:20px;
+        font-size: 10px;
+        margin-left:13px;
     }
     
     .header-text h1{
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 50px;
     }
     nav .fa-solid{
